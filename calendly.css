@@ -1,0 +1,498 @@
+/*navbar*/
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    position: relative;
+
+}
+
+#navbarNav {
+    margin-left: 20%;
+}
+
+#navbarNav ul li a {
+    font-weight: bold;
+    color: black;
+    font-size: 14px;
+}
+
+/*Begining of enterprise page*/
+.platform {
+    text-align: center;
+
+}
+
+.platform p {
+    color: black;
+    font-weight: lighter bold;
+
+}
+
+.way {
+    color: blue;
+}
+
+.header1 {
+    font-weight: bold;
+}
+
+.contact_sales_btn {
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    width: 10vw;
+}
+
+.sales {
+    font-size: 13px;
+}
+
+/*Banner*/
+.e-banner {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.e-banner img {
+    width: 100%;
+
+}
+
+/*Cards; Sales,Customer success & Recruiting*/
+.enterprise-cards {
+    margin-top: 2%;
+    margin-bottom: 3%;
+    width: 75%;
+}
+
+.enterprise-cards .card {
+    border-radius: 20px;
+    height: 60vh;
+    border-color: rgb(232, 229, 229);
+    box-shadow: 1px 1px 1px 1px rgb(232, 229, 229);
+}
+
+.enterprise-cards h5 {
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: 700;
+    color: #006aff;
+    font-size: 15px;
+}
+
+.enterprise-cards p {
+    color: black;
+    font-weight: 600;
+}
+
+.enterprise-cards img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.enterprise-cards .card-button {
+    height: 5vh;
+    width: 7vw;
+    border-radius: 30px;
+    background-color: black;
+    border: 1px solid black;
+
+}
+
+.enterprise-cards .learn-more {
+    color: white;
+    font-size: 12px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-button-container {
+    margin-top: 2%;
+}
+
+/*homepage*/
+.hassle h1 {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.ahead {
+    color: #006aff;
+}
+
+.hassle p {
+    font-size: 12px;
+    font-weight: 500;
+    padding-top: 3%;
+}
+
+.hub {
+    margin-top: 6%;
+}
+
+.email {
+    height: 7vh;
+    width: 20vw;
+    border-radius: 30px;
+    padding-left: 20px;
+    border: 1px solid grey;
+    box-shadow: 1px 1px 1px grey;
+    position: relative;
+}
+
+.signup-btn {
+    height: 7vh;
+    width: 7vw;
+    border-radius: 30px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    position: absolute;
+    left: 25%;
+}
+
+.signup {
+    font-size: 11px;
+}
+
+.free {
+    color: gray;
+    margin-left: 5%;
+
+}
+
+.homebanner img {
+    height: 50vh;
+    width: 90%;
+}
+
+.users {
+    margin-top: 7%;
+    background-color: #fbfbfb;
+}
+
+.simplify {
+    padding-top: 3%;
+
+}
+
+.simplify h4 {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.cash {
+    color: #096eff;
+}
+
+.icon img {
+    height: 50%;
+    width: 50%;
+}
+
+.icon {
+    margin-top: 3%;
+}
+
+.home-footer {
+    margin-top: 3%;
+}
+
+.process {
+    border-left: 1px solid lightgray;
+    position: relative;
+}
+
+.process h4 {
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.process p {
+    font-weight: 500;
+    margin-top: 7%;
+
+}
+
+.num-btn {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50px;
+    position: absolute;
+    top: -8px;
+    left: -12px;
+    background-color: #006aff;
+    color: white;
+    border: none;
+}
+
+.number {
+    font-size: 12px;
+}
+
+.genuis h1 {
+    font-weight: 900;
+    font-size: 80px;
+}
+
+.better {
+    color: #006aff;
+}
+
+/*Individuals page*/
+
+.genius-way {
+    margin-top: 6%;
+
+}
+
+.genius p {
+    font-size: 12px;
+    font-weight: 500;
+    padding-top: 3%;
+}
+
+.Sign-up-free_btn {
+    height: 7vh;
+    width: 10vw;
+    border-radius: 30px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    top: 20px;
+    font-size: 10px;
+}
+
+.geniusimg img {
+    height: 35vh;
+    width: 70%;
+}
+
+.curated_calender {
+    margin-top: 50px;
+}
+
+.curatedimg img {
+    height: 30vh;
+    width: 80%;
+    margin-left: 50px;
+
+}
+
+.curated_calender {
+    font-size: 12px;
+}
+
+.bookup {
+    font-weight: 700;
+    font-size: 25px;
+    color: black;
+}
+
+.automations {
+    margin-top: 190px;
+}
+
+.follow-ups {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.work {
+    font-weight: 700;
+    color: black;
+
+}
+
+.tasks {
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.zoom {
+    height: 30vh;
+    width: 60%;
+
+}
+
+.plans-img {
+    margin-top: 13%;
+}
+
+/*footer*/
+.footer {
+    margin-top: 5%;
+}
+
+.footer ul li {
+    list-style: none;
+    font-size: 12px;
+    line-height: 3;
+    color: #4a72b6;
+}
+
+.footer ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footer h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #00143d;
+}
+
+.easy-individual {
+    font-size: 30px;
+    font-weight: 900;
+    color: #00143d;
+}
+
+.ahead-individual {
+    font-size: 30px;
+    font-weight: 900;
+    color: #006aff;
+}
+
+.workout-individual {
+    font-size: 12px;
+    color: #4a72b6;
+}
+
+/*teams-page*/
+.powerup-team {
+    font-size: 28px;
+    font-weight: bolder;
+    color: #043256;
+}
+
+.power-up {
+    color: #006aff;
+}
+
+.team-calendly {
+    color: #4a72b6;
+}
+
+.startfree-button {
+    height: 7vh;
+    width: 10vw;
+    border-radius: 30px;
+    background-color: #006aff;
+    border: 1px solid #006aff;
+}
+
+.contact-sales-button {
+    height: 7vh;
+    width: 10vw;
+    border-radius: 30px;
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0);
+    margin-left: 3%;
+}
+
+.start-free {
+    color: white;
+    font-size: 12px;
+}
+
+.contact-sales {
+    color: rgb(0, 0, 0);
+    font-size: 11px;
+    font-weight: 700;
+}
+
+#team-banner1 {
+    width: 90%;
+    height: 80%;
+}
+
+.streamline-tasks {
+    margin-top: 3%;
+
+}
+
+.streamline-tasks h1 {
+    margin-top: 3%;
+    color: #00143d;
+    font-weight: 700;
+}
+
+.automated-assigments h6 {
+    font-size: 12px;
+    font-weight: 600;
+    color: #006aff;
+}
+
+.automated-assigments h1 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #00143d;
+}
+
+.automated-assigments p {
+    font-size: 14px;
+    color: rgb(122, 118, 118);
+}
+
+#team-banner2 {
+    height: 40vh;
+    margin-left: 15%;
+}
+
+.card-container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.solution-work-container {
+    margin-bottom: 3%;
+}
+
+.card {
+    height: 50vh;
+}
+
+.card img {
+    height: 20vh;
+}
+
+.solution-work-container p {
+    font-size: 12px;
+    color: #096eff;
+    font-weight: 600;
+}
+
+.solution-work-container h1 {
+    font-size: 28px;
+    color: #00143d;
+    font-weight: 700;
+}
+
+.card-body h5 {
+    font-size: 18px;
+    color: #4a72b6
+}
+
+.card-body p {
+    font-size: 13px;
+    color: #4a72b6;
+
+}
+
+.card-body a {
+    text-decoration: none;
+    font-size: 14px;
+}
